@@ -60,3 +60,14 @@ EasyBuy is an e-commerce platform developed using React.js for the frontend and 
 
       git clone https://github.com/DB4558/react.git
       cd react
+
+5.**Install dependencies and run the frontend:**
+
+      ```bash
+   
+          npm install
+          npm start
+
+6.**Usage**
+
+    Open the browser and navigate to http://localhost:3000.
