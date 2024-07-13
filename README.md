@@ -31,3 +31,32 @@ EasyBuy is an e-commerce platform developed using React.js for the frontend and 
    ```bash
    git clone https://github.com/DB4558/easybuy.git
    cd easybuy
+### Backend Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/DB4558/springboot-backend-api.git
+   cd springboot-backend-api
+2. **Configure the database in src/main/resources/application.properties:**
+
+   ```bash
+
+      spring.datasource.url=jdbc:mysql://localhost:3306/springboot-backend-api
+      spring.datasource.username=root
+      spring.datasource.password=yourpassword
+
+3. **Build and run the backend:**
+
+      ```bash
+
+          mvn clean install
+          mvn spring-boot:run
+
+4.**Frontend Setup**
+
+    Clone the repository:
+
+    ```bash
+
+      git clone https://github.com/DB4558/react.git
+      cd react
